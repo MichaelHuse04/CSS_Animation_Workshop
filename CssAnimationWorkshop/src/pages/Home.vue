@@ -164,10 +164,12 @@ aside {
 
 .card:first-child {
   animation: cardAnimation 5s linear infinite;
+  transform: rotateY(0.25turn);
 }
 
 .card:last-child {
   animation: cardAnimation 5s linear infinite;
+  transform: rotateY(0.25turn);
   animation-delay: 2.5s;
 }
 @keyframes infinitSliderItem {
